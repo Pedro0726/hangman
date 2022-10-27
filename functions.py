@@ -1,4 +1,5 @@
-
+def welcome(name):
+  print("Welcome " + name)
 
 def add_numbers(num1, num2):
   print(num1, num2)
@@ -22,10 +23,11 @@ def greet():
 ########################################################################################################################
 # Create Functions Practice #2
 # Declare a function called welcome, which takes a person's name as an argument, and every time it is called, it prints "Welcome {name}!"
-def welcome(name):
-  print("Welcome " + name)
+def welcome1(name):
+  print(f"Welcome {name}")
+  
 # Create the variable name, and store any name inside of it, so we can test the function with a name of your choosing.
-name = "pedro"
+
 # You should only define the function and create the variable, you should not call the function afterwards.
 
 
