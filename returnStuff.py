@@ -36,3 +36,5 @@ def usd_to_eur(num):
 # Also, you must create a variable called word, which contains any string, to pass it as an argument to the created function.
 
 # Hint: inside the created function, you should use string methods already seen.
+def reverse_word(word):
+  return "word"[:-1]

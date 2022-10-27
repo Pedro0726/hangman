@@ -1,6 +1,6 @@
 # from methods_help import method_help
 # from functions import  welcome, add_numbers, num_dividedFrom_add_numbers, greet,square, welcome1
-from returnStuff import power, usd_to_eur
+from returnStuff import power, usd_to_eur, reverse_word
 
 
 # method_help()
@@ -16,3 +16,4 @@ from returnStuff import power, usd_to_eur
 # returnS()
 print(power(4,2))
 print(usd_to_eur(1))
+print(reverse_word("word"))
