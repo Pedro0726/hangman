@@ -7,7 +7,7 @@ from function_interactions import mix_sticks, try_your_luck, verify_number
 sticks = ["-", "--", "---", "----", "-----"]
 print(mix_sticks(sticks))
 print(try_your_luck())
-print
+print(verify_number(mix_sticks(sticks), try_your_luck()))
 # method_help()
 # function()
 # welcome("pedro")
