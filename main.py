@@ -2,10 +2,12 @@
 # from functions import  welcome, add_numbers, num_dividedFrom_add_numbers, greet,square, welcome1
 # from returnStuff import power, usd_to_eur, reverse_word
 # from dynamic_functions import check_3Digits, all_positives
-from function_interactions import mix_sticks
+from function_interactions import mix_sticks, try_your_luck, verify_number
 
 sticks = ["-", "--", "---", "----", "-----"]
 print(mix_sticks(sticks))
+print(try_your_luck())
+print
 # method_help()
 # function()
 # welcome("pedro")
