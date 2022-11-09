@@ -4,20 +4,19 @@
 # functions. That way, the program is built from the interaction
 # between functions that perform a defined task .
 # def function_1():
-# |...
-# |return a
-# def function_2(a):
-# |...
-# |return b
-# def function_3(b):
-# |...
-# |return c
-# def function_4(a,c):
-# |...
-# |return d
+# 
+from random import shuffle 
+#stick game 
+#initial list 
+sticks = ["-", "--", "---", "----", "-----"]
 
-def interactions():
-  pass
+#mixing sticks 
+def mix_sticks(my_list):
+  shuffle(my_list)
+  return my_list
+#choose a number
+
+#verify a number 
 
 #####################################################################################################
 

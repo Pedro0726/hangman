@@ -1,8 +1,11 @@
 # from methods_help import method_help
 # from functions import  welcome, add_numbers, num_dividedFrom_add_numbers, greet,square, welcome1
 # from returnStuff import power, usd_to_eur, reverse_word
-from dynamic_functions import check_3Digits
+# from dynamic_functions import check_3Digits, all_positives
+from function_interactions import mix_sticks
 
+sticks = ["-", "--", "---", "----", "-----"]
+print(mix_sticks(sticks))
 # method_help()
 # function()
 # welcome("pedro")
@@ -17,5 +20,7 @@ from dynamic_functions import check_3Digits
 # print(power(4,2))
 # print(usd_to_eur(1))
 # print(reverse_word("word"))
-result = check_3Digits(99)
-print(result)
+# result = check_3Digits([55, 99, 600,345,666,234])
+# print(result)
+# result = all_positives([44, 55, -62])
+# print(result)
